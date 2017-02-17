@@ -1,0 +1,45 @@
+<!doctype html>
+<html ng-app="myApp">
+  <head>
+   <link rel="shortcut icon" type="image/x-icon" href="assets/images/brand.png" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/4.0.0-bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+
+    <script src="js/libraries/1.12.4-jquery.min.js"></script>
+    <script src="js/libraries/1.5.6-angular.min.js"></script>
+    <script src="js/libraries/angular-route.min.js"></script>
+    <script src="js/libraries/4.0.0-bootstrap.js"></script>
+    
+    <script src="js/app.js"></script>
+    <script src="js/controllers/homeController.js"></script>
+    <script src="js/controllers/page1Controller.js"></script>
+    <script src="js/controllers/page2Controller.js"></script>
+	  <script src="js/controllers/page3Controller.js"></script>
+    <script src="js/directives/menu.js"></script>
+  </head>
+  <body class="body">
+
+
+    <div class="jumbotron text-center">
+      <h1>Company Name </h1>
+      <p class="slogan">Here is my caption !</p>
+    </div>
+
+    <div op-menu-section></div>
+
+
+    
+    <div ng-view></div>
+
+
+
+    <footer class="footer text-center">
+        <span class="copyright">Copyright © 2016 | alurechu@gmail.com</span>
+    </footer>
+
+  </body>
+</html>
