@@ -1,2 +1,4 @@
-# AngularJS-Starter-Kit
+# AngularJS-Starter-Kit 
 Simple AngularJS structure for Beginners
+
+featureBranch
